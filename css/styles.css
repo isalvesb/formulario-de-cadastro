@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  margin: 1.25rem auto;
+  color: var(--deep-charcoal);
+  overflow-y: hidden;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1100px;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.container img {
+  width: 50%;
+  height: 70vh;
+  object-fit: contain;
+}
+
+.box-info {
+  width: 35%;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cream);
+  padding: 3rem;
+  border-radius: 1.25rem;
+}
+
+.title-form {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.box-info form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.box-info input {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.75rem;
+  font-family: var(--font-primary);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.buttons button {
+  padding: 0.75rem;
+  width: 50%;
+  max-width: 160px;
+  font-family: var(--font-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 1.25rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+}
+
+.buttons button:active {
+  background-color: var(--african-violet);
+}
+
+.register {
+  background-color: var(--wisteria);
+}
+
+.sigin {
+  background-color: var(--white);
+}
+
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Tablets (768px para baixo) */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0.5rem auto;
+    overflow-y: auto;
+    background-color: var(--cream);
+  }
+
+  .page {
+    height: auto;
+    min-height: 100vh;
+    padding: 1rem 0;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    overflow: visible;
+    gap: 1rem;
+  }
+
+  .container img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    order: 1;
+    background-color: var(--cream);
+    padding: 1rem;
+    border-radius: 1.25rem;
+  }
+
+  .box-info {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1.5rem;
+    order: 2;
+  }
+
+  .title-form {
+    position: static;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+  }
+
+  .box-info form {
+    margin-top: 1rem;
+    gap: 1.5rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .buttons button {
+    width: 80%;
+    max-width: 250px;
+  }
+}
+
+/* Celulares (480px para baixo) */
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0.25rem auto;
+  }
+
+  .container {
+    width: 95%;
+    gap: 0.5rem;
+  }
+
+  .container img {
+    height: 200px;
+    padding: 0.5rem;
+  }
+
+  .box-info {
+    padding: 1.5rem 1rem;
+  }
+
+  .title-form {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .box-info form {
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .box-info input {
+    max-width: 280px;
+    padding: 0.65rem;
+  }
+
+  .buttons button {
+    width: 90%;
+    padding: 0.65rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Celulares muito pequenos (360px para baixo) */
+@media screen and (max-width: 360px) {
+  .container img {
+    height: 180px;
+  }
+
+  .box-info {
+    padding: 1rem 0.75rem;
+  }
+
+  .title-form {
+    font-size: 1.25rem;
+  }
+
+  .box-info input {
+    max-width: 250px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .buttons button {
+    width: 95%;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Ajustes para orientação landscape em mobile */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .page {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .container {
+    flex-direction: row;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .container img {
+    height: 200px;
+    width: 45%;
+    object-fit: contain;
+  }
+
+  .box-info {
+    height: auto;
+    width: 55%;
+    padding: 1.5rem;
+  }
+
+  .title-form {
+    position: static;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .box-info form {
+    margin-top: 0.5rem;
+    gap: 1rem;
+  }
+}
+
+/* Tablet em modo retrato (entre 769px e 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    gap: 2rem;
+  }
+
+  .container img {
+    height: 60vh;
+    object-fit: contain;
+  }
+
+  .box-info {
+    height: 60vh;
+    padding: 2rem;
+  }
+
+  .title-form {
+    font-size: 1.75rem;
+  }
+}

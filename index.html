@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="icon" href="assets/favicon.ico" />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fonte Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- Vars CSS -->
+    <link rel="stylesheet" href="/css/vars.css" />
+  </head>
+  <body>
+    <!-- Imagem -->
+    <div class="page">
+      <div class="container">
+        <img
+          src="/assets/form-img.png"
+          alt="ilustração de uma tela de login de um aplicativo móvel com uma mulher segurando o celular ao lado"
+        />
+
+        <!-- Box do formulário -->
+
+        <div class="box-info">
+          <h2 class="title-form">Create an account</h2>
+
+          <form action="" id="formularioCadastro" method="get">
+            <input
+              type="text"
+              placeholder="Name"
+              id="nome"
+              name="nome"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              id="email"
+              name="email"
+              required
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              id="senha"
+              name="senha"
+              required
+            />
+
+            <div class="buttons">
+              <button type="submit" class="register">Register</button>
+              <button type="submit" class="sigin">Sigin</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
