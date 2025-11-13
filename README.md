@@ -101,10 +101,10 @@ Contribuições são bem-vindas! Se quiser:
       <b>Isa Alves</b>
       <br><br>
       <a href="mailto:alvesisamara@gmail.com" target="_blank">
-        <img src="https://img.shields.io/badge/Gmail-EDC8FF?style=flat-rounded&logo=gmail&logoColor=white">
+        <img src="https://img.shields.io/badge/Gmail-C69FD4?style=flat-rounded&logo=gmail&logoColor=FDFDC9">
         </a>
       <a href="https://www.linkedin.com/in/isalvesb/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-674695?style=flat-rounded&logo=linkedin&logoColor=white">
+      <img src="https://img.shields.io/badge/Linkedin-FDFDC9?style=flat-rounded&logo=linkedin&logoColor=C69FD4">
         </a>
     </td>
   </tr>
