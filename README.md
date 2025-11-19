@@ -7,19 +7,17 @@
 
 ## 🚀 Tecnologias Utilizadas
 
-<p><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-rounded&logo=html5&logoColor=white"> → Marcação semântica para o formulário</p>
-<p><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-rounded&logo=css3&logoColor=white"/> → Estilização responsiva e visual agradável</p>
-<p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-rounded&logo=javascript&logoColor=black"/> → Lógica de validação e interação do formulário</p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-rounded&logo=html5&logoColor=white"> → Marcação semântica para o formulário  
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-rounded&logo=css3&logoColor=white"/> → Estilização responsiva e visual agradável  
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-rounded&logo=javascript&logoColor=black"/> → Lógica de validação e interação do formulário
 
 ---
 
-## 🎯 Funcionalidades
+## 🎯 Funcionalidades  
 
-<ul>
-  <li>Campos de entrada (nome, email e senha.);</li>
-  <li>Feedback visual para o usuário (mensagem de erro ou sucesso);</li>
-  <li>Estilo personalizado para facilitar a leitura e usabilidade.</li>
-</ul>
+- Campos de entrada (nome, email e senha.);  
+- Feedback visual para o usuário (mensagem de erro ou sucesso);  
+- Estilo personalizado para facilitar a leitura e usabilidade.
 
 ---
 
@@ -47,21 +45,21 @@ cd formulario-de-cadastro
 
 ## ✏️ Possíveis Melhorias
 
-Adicionar mais campos (ex: telefone, endereço, seleção de país);  
-Inserir validações mais robustas (ex: verificação de formato, senhas fortes, confirmação de senha);  
-Integrar com backend (ex: envio dos dados para uma API REST);  
-Tornar o formulário mais acessível (usando aria-labels, foco, etc);  
-Adicionar animações suaves ou modo escuro/tema dinâmico;
+- Adicionar mais campos (ex: telefone, endereço, seleção de país);  
+- Inserir validações mais robustas (ex: verificação de formato, senhas fortes, confirmação de senha);  
+- Integrar com backend (ex: envio dos dados para uma API REST);  
+- Tornar o formulário mais acessível (usando aria-labels, foco, etc);  
+- Adicionar animações suaves ou modo escuro/tema dinâmico;
 
 ---
 
 ## 🧠 Dica de Uso & Contexto de Estudo
 
 Se você está estudando HTML, CSS e UX/UI, este projeto se encaixa muito bem como <b>base de prática</b>. Você pode utilizar este formulário para:  
-Experimentar diferentes estilos visuais e layouts  
-Aplicar transformações em CSS(gradientes, sombras, transições suaves)  
-Testar padrões de acessibilidade e usabilidade(ex: foco, labels, erros claros)  
-Implementar modo escuro ou temas alternativos como exercício de design.
+- Experimentar diferentes estilos visuais e layouts  
+- Aplicar transformações em CSS(gradientes, sombras, transições suaves)  
+- Testar padrões de acessibilidade e usabilidade(ex: foco, labels, erros claros)  
+- Implementar modo escuro ou temas alternativos como exercício de design.
 
 ---
 
@@ -87,9 +85,9 @@ formulario-de-cadastro/
 
 Contribuições são bem-vindas! Se quiser:
 
-Abra um "issue" para sugerir melhorias ou reportar bugs  
-Envie um "pull request" com melhorias ou novas funcionalidades  
-Por favor, mantenha o padrão do código e adicione comentários sempre que possível.
+- Abra um "issue" para sugerir melhorias ou reportar bugs  
+- Envie um "pull request" com melhorias ou novas funcionalidades  
+- Por favor, mantenha o padrão do código e adicione comentários sempre que possível.
 
 ---
 
