@@ -6,6 +6,7 @@
 ---
 
 ## 🚀 Tecnologias Utilizadas
+
 <p><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-rounded&logo=html5&logoColor=white"> → Marcação semântica para o formulário</p>
 <p><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-rounded&logo=css3&logoColor=white"/> → Estilização responsiva e visual agradável</p>
 <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-rounded&logo=javascript&logoColor=black"/> → Lógica de validação e interação do formulário</p>
@@ -13,6 +14,7 @@
 ---
 
 ## 🎯 Funcionalidades
+
 <ul>
   <li>Campos de entrada (nome, email e senha.);</li>
   <li>Feedback visual para o usuário (mensagem de erro ou sucesso);</li>
@@ -22,6 +24,7 @@
 ---
 
 ## 🧩 Como Executar
+
 <b>1.</b> Clone este repositório:
 
 [![Repositório](https://img.shields.io/badge/GitHub-Formulário%20de%20Cadastro-C69FD4?style=flat-rounded&logo=github)](https://github.com/isalvesb/formulario-de-cadastro) <br>
@@ -33,34 +36,32 @@
 ```plaintext
 cd formulario-de-cadastro
 ```
+
 </div>
 
-<b>3.</b> Abra o <b>index.html</b> em seu navegador favorito 
+<b>3.</b> Abra o `index.html` em seu navegador favorito
 
-<b>4.</b> (Opcional) Faça modificações nos arquivos <b>.css</b> ou <b>.js</b> para personalizar conforme sua necessidade.  
+<b>4.</b> (Opcional) Faça modificações nos arquivos <b>.css</b> ou <b>.js</b> para personalizar conforme sua necessidade.
 
 ---
 
 ## ✏️ Possíveis Melhorias
-<ul>
-<li>Adicionar mais campos (ex: telefone, endereço, seleção de país);</li>
-<li>Inserir validações mais robustas (ex: verificação de formato, senhas fortes, confirmação de senha);</li>
-<li>Integrar com backend (ex: envio dos dados para uma API REST);</li>
-<li>Tornar o formulário mais acessível (usando aria-labels, foco, etc);</li>
-<li>Adicionar animações suaves ou modo escuro/tema dinâmico;</li>
 
-</ul>
+Adicionar mais campos (ex: telefone, endereço, seleção de país);  
+Inserir validações mais robustas (ex: verificação de formato, senhas fortes, confirmação de senha);  
+Integrar com backend (ex: envio dos dados para uma API REST);  
+Tornar o formulário mais acessível (usando aria-labels, foco, etc);  
+Adicionar animações suaves ou modo escuro/tema dinâmico;
 
 ---
 
 ## 🧠 Dica de Uso & Contexto de Estudo
-<p>Se você está estudando HTML, CSS e UX/UI, este projeto se encaixa muito bem como <b>base de prática</b>. Você pode utilizar este formulário para:</p>
-<ul>
-  <li>Experimentar diferentes estilos visuais e layouts</li>
-  <li>Aplicar transformações em CSS(gradientes, sombras, transições suaves)</li>
-  <li>Testar padrões de acessibilidade e usabilidade(ex: foco, labels, erros claros)</li>
-  <li>Implementar modo escuro ou temas alternativos como exercício de design.</li>
-</ul>
+
+Se você está estudando HTML, CSS e UX/UI, este projeto se encaixa muito bem como <b>base de prática</b>. Você pode utilizar este formulário para:  
+Experimentar diferentes estilos visuais e layouts  
+Aplicar transformações em CSS(gradientes, sombras, transições suaves)  
+Testar padrões de acessibilidade e usabilidade(ex: foco, labels, erros claros)  
+Implementar modo escuro ou temas alternativos como exercício de design.
 
 ---
 
@@ -77,17 +78,18 @@ formulario-de-cadastro/
 ├── script.js
 └── index.html
 ```
+
 </div>
 
 ---
 
 ## 🤝 Contribuições
+
 Contribuições são bem-vindas! Se quiser:
-<ul>
-  <li>Abra um "issue" para sugerir melhorias ou reportar bugs</li>
-  <li>Envie um "pull request" com melhorias ou novas funcionalidades</li>
-  <li>Por favor, mantenha o padrão do código e adicione comentários sempre que possível.</li>
-</ul>
+
+Abra um "issue" para sugerir melhorias ou reportar bugs  
+Envie um "pull request" com melhorias ou novas funcionalidades  
+Por favor, mantenha o padrão do código e adicione comentários sempre que possível.
 
 ---
 
@@ -109,6 +111,3 @@ Contribuições são bem-vindas! Se quiser:
     </td>
   </tr>
 </table>
-
-
-
