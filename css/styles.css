@@ -109,6 +109,7 @@ body {
 
 .sigin {
   background-color: var(--white);
+  color: var(--deep-charcoal);
 }
 
 /* ===== RESPONSIVE STYLES ===== */
